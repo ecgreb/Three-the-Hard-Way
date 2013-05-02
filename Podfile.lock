@@ -1,10 +1,13 @@
 PODS:
   - CocoaLumberjack (1.6.2)
+  - Kiwi (2.0.6)
 
 DEPENDENCIES:
   - CocoaLumberjack
+  - Kiwi
 
 SPEC CHECKSUMS:
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
+  Kiwi: 56082a80f942de4d10423d8d8a599ab30cf50228
 
 COCOAPODS: 0.19.1
