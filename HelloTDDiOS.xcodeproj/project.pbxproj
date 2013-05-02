@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; settings = {}; };
 		AEE00047E342EC272BF3BB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* ViewController.m */; };
 		AEE00222D3CD8DF396EE1F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00802F590C8BA5E15E4E3 /* InfoPlist.strings */; };
 		AEE00288C20B31D33476C6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00C786373F04063258E51 /* main.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39CD9234CE914E95949849DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00001B27E8FCF089BC780 /* HelloTDDiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloTDDiOS-Prefix.pch"; sourceTree = "<group>"; };
 		AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDiOSTests.m; sourceTree = "<group>"; };
 		AEE0010284D0B73F568520D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -52,12 +54,14 @@
 		AEE008CF699601431531BD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AEE009551AFC792D4E450BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEE00A376B017DE775F7B638 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AEE00AB186EB21485ADF2D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AEE00C31A22177BB8480F2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDiOSTests.h; sourceTree = "<group>"; };
 		AEE00C786373F04063258E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOS-Info.plist"; sourceTree = "<group>"; };
 		AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTDDiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B016847C942F4DD48872D363 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				AEE0092785C9CD6CF3ABF28C /* UIKit.framework in Frameworks */,
 				AEE00FDE60EEA232BA43B3D3 /* Foundation.framework in Frameworks */,
 				AEE0092C846678BB71A38DCF /* CoreGraphics.framework in Frameworks */,
+				4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +119,8 @@
 				AEE0040F5DA40C869EA30141 /* Frameworks */,
 				AEE0000F93F8DAAB67FDFF23 /* HelloTDDiOS */,
 				AEE0017C124A81DDCFDDD47F /* HelloTDDiOSTests */,
+				AEE00A376B017DE775F7B638 /* Podfile */,
+				B016847C942F4DD48872D363 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +140,7 @@
 				AEE00C31A22177BB8480F2F3 /* Foundation.framework */,
 				AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */,
 				AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */,
+				39CD9234CE914E95949849DD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEE006500C86499EDBBC00DE /* Build configuration list for PBXNativeTarget "HelloTDDiOS" */;
 			buildPhases = (
+				0414AFD07FA0466A8415E2CF /* Check Pods Manifest.lock */,
 				AEE00A9E09C5007A6958C8D5 /* Sources */,
 				AEE00C302C082F7DD86C192E /* Frameworks */,
 				AEE00A7643C01BED7EF905DF /* Resources */,
+				AE01651E180F42D29874136F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +227,8 @@
 			mainGroup = AEE003107EE55096D0A6F1EB;
 			productRefGroup = AEE00322EDB160E338028CF9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				AEE00F236B6CC11F9164C786 /* HelloTDDiOS */,
@@ -249,6 +261,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0414AFD07FA0466A8415E2CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 1;
+		};
+		AE01651E180F42D29874136F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
 		AEE008AA093246F95383FDFE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,11 +365,13 @@
 /* Begin XCBuildConfiguration section */
 		AEE0014AEB75D29B8AD1CE38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B016847C942F4DD48872D363 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
 				INFOPLIST_FILE = "HelloTDDiOS/HelloTDDiOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -351,11 +395,13 @@
 		};
 		AEE00582BAD2AC48B398FA2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B016847C942F4DD48872D363 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
 				INFOPLIST_FILE = "HelloTDDiOS/HelloTDDiOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
