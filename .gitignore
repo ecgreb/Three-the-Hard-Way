@@ -1,0 +1,13 @@
+# Xcode
+HelloTDDiOS.xcodeproj/project.xcworkspace/xcuserdata/
+HelloTDDiOS.xcodeproj/xcuserdata/
+HelloTDDiOS.xcworkspace/xcuserdata/
+
+# AppCode
+.idea/
+
+# OS X
+.DS_Store
+
+# CocoaPods
+Pods/

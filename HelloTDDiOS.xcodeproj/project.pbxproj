@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEE00047E342EC272BF3BB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* ViewController.m */; };
+		AEE00222D3CD8DF396EE1F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00802F590C8BA5E15E4E3 /* InfoPlist.strings */; };
+		AEE00288C20B31D33476C6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00C786373F04063258E51 /* main.m */; };
+		AEE002C80363B313DE4A0E8B /* HelloTDDiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */; };
+		AEE0042728DB5CE4D917982C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00764205D323FAEC3A0FD /* AppDelegate.m */; };
+		AEE0062087B5AA2BFBA5B1F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE00675680ADCC2F916D80D /* Default.png */; };
+		AEE006BFBB840BF5B98DDB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
+		AEE00700E5A436C7E4F0DBA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */; };
+		AEE0092785C9CD6CF3ABF28C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
+		AEE0092C846678BB71A38DCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */; };
+		AEE0094F37728EA7EC38196E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
+		AEE00D9B9F9707FE35EB7EB0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */; };
+		AEE00F053FB5E585720CE20E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE00A70FDE94710653BB715 /* MainStoryboard.storyboard */; };
+		AEE00F37C54E1FA65D460973 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */; };
+		AEE00F50DFD04F34F59F8583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00BE687422D806DC792F7 /* InfoPlist.strings */; };
+		AEE00FDE60EEA232BA43B3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE00A0C30C1397545D43D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE009FF97AF00B2D6D1728F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE00F236B6CC11F9164C786;
+			remoteInfo = HelloTDDiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEE00001B27E8FCF089BC780 /* HelloTDDiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloTDDiOS-Prefix.pch"; sourceTree = "<group>"; };
+		AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDiOSTests.m; sourceTree = "<group>"; };
+		AEE0010284D0B73F568520D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AEE0042FE64F97FED896FA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEE005E292618E4EB81E08AB /* HelloTDDiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOSTests-Info.plist"; sourceTree = "<group>"; };
+		AEE00675680ADCC2F916D80D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AEE00764205D323FAEC3A0FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEE007CC35ED26BBFD341463 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTDDiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE00883768623E307A795BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEE008CF699601431531BD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEE009551AFC792D4E450BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEE00AB186EB21485ADF2D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEE00C31A22177BB8480F2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDiOSTests.h; sourceTree = "<group>"; };
+		AEE00C786373F04063258E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOS-Info.plist"; sourceTree = "<group>"; };
+		AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTDDiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE002C87A2CC950883E3AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE00D9B9F9707FE35EB7EB0 /* SenTestingKit.framework in Frameworks */,
+				AEE0094F37728EA7EC38196E /* UIKit.framework in Frameworks */,
+				AEE006BFBB840BF5B98DDB0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE00C302C082F7DD86C192E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE0092785C9CD6CF3ABF28C /* UIKit.framework in Frameworks */,
+				AEE00FDE60EEA232BA43B3D3 /* Foundation.framework in Frameworks */,
+				AEE0092C846678BB71A38DCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEE0000F93F8DAAB67FDFF23 /* HelloTDDiOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEE005D734D4DFD5DF882A6B /* Supporting Files */,
+				AEE0042FE64F97FED896FA31 /* AppDelegate.h */,
+				AEE00764205D323FAEC3A0FD /* AppDelegate.m */,
+				AEE00A70FDE94710653BB715 /* MainStoryboard.storyboard */,
+				AEE007CC35ED26BBFD341463 /* ViewController.h */,
+				AEE00AB186EB21485ADF2D2D /* ViewController.m */,
+			);
+			path = HelloTDDiOS;
+			sourceTree = "<group>";
+		};
+		AEE0017C124A81DDCFDDD47F /* HelloTDDiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE00C20941D16AD69D6A755 /* Supporting Files */,
+				AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */,
+				AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */,
+			);
+			path = HelloTDDiOSTests;
+			sourceTree = "<group>";
+		};
+		AEE003107EE55096D0A6F1EB = {
+			isa = PBXGroup;
+			children = (
+				AEE00322EDB160E338028CF9 /* Products */,
+				AEE0040F5DA40C869EA30141 /* Frameworks */,
+				AEE0000F93F8DAAB67FDFF23 /* HelloTDDiOS */,
+				AEE0017C124A81DDCFDDD47F /* HelloTDDiOSTests */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE00322EDB160E338028CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */,
+				AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE0040F5DA40C869EA30141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE00883768623E307A795BD /* UIKit.framework */,
+				AEE00C31A22177BB8480F2F3 /* Foundation.framework */,
+				AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */,
+				AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEE005D734D4DFD5DF882A6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */,
+				AEE00BE687422D806DC792F7 /* InfoPlist.strings */,
+				AEE00C786373F04063258E51 /* main.m */,
+				AEE00001B27E8FCF089BC780 /* HelloTDDiOS-Prefix.pch */,
+				AEE00675680ADCC2F916D80D /* Default.png */,
+				AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */,
+				AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE00C20941D16AD69D6A755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE005E292618E4EB81E08AB /* HelloTDDiOSTests-Info.plist */,
+				AEE00802F590C8BA5E15E4E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEE000D2BBB2C117A39E9382 /* HelloTDDiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "HelloTDDiOSTests" */;
+			buildPhases = (
+				AEE006C1A948C3D3A52CA27E /* Sources */,
+				AEE002C87A2CC950883E3AAD /* Frameworks */,
+				AEE008E4662C67A1B9C2AC07 /* Resources */,
+				AEE008AA093246F95383FDFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE00BA0795DD3D200861D4F /* PBXTargetDependency */,
+			);
+			name = HelloTDDiOSTests;
+			productName = HelloTDDiOSTests;
+			productReference = AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AEE00F236B6CC11F9164C786 /* HelloTDDiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE006500C86499EDBBC00DE /* Build configuration list for PBXNativeTarget "HelloTDDiOS" */;
+			buildPhases = (
+				AEE00A9E09C5007A6958C8D5 /* Sources */,
+				AEE00C302C082F7DD86C192E /* Frameworks */,
+				AEE00A7643C01BED7EF905DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTDDiOS;
+			productName = HelloTDDiOS;
+			productReference = AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE009FF97AF00B2D6D1728F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "E. C. Greb";
+			};
+			buildConfigurationList = AEE00C8FE7B889B73BCFC691 /* Build configuration list for PBXProject "HelloTDDiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEE003107EE55096D0A6F1EB;
+			productRefGroup = AEE00322EDB160E338028CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE00F236B6CC11F9164C786 /* HelloTDDiOS */,
+				AEE000D2BBB2C117A39E9382 /* HelloTDDiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE008E4662C67A1B9C2AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE00222D3CD8DF396EE1F54 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE00A7643C01BED7EF905DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE00F50DFD04F34F59F8583 /* InfoPlist.strings in Resources */,
+				AEE0062087B5AA2BFBA5B1F4 /* Default.png in Resources */,
+				AEE00F37C54E1FA65D460973 /* Default@2x.png in Resources */,
+				AEE00700E5A436C7E4F0DBA7 /* Default-568h@2x.png in Resources */,
+				AEE00F053FB5E585720CE20E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEE008AA093246F95383FDFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE006C1A948C3D3A52CA27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE002C80363B313DE4A0E8B /* HelloTDDiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE00A9E09C5007A6958C8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE00288C20B31D33476C6F1 /* main.m in Sources */,
+				AEE0042728DB5CE4D917982C /* AppDelegate.m in Sources */,
+				AEE00047E342EC272BF3BB0B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEE00BA0795DD3D200861D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE00F236B6CC11F9164C786 /* HelloTDDiOS */;
+			targetProxy = AEE00A0C30C1397545D43D16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEE00802F590C8BA5E15E4E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE008CF699601431531BD07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEE00A70FDE94710653BB715 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE0010284D0B73F568520D1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AEE00BE687422D806DC792F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE009551AFC792D4E450BBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEE0014AEB75D29B8AD1CE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloTDDiOS/HelloTDDiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AEE001A8D3EDE560B5708092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloTDDiOS.app/HelloTDDiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloTDDiOSTests/HelloTDDiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AEE00582BAD2AC48B398FA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloTDDiOS/HelloTDDiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEE0095FC232E7A0401E2D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloTDDiOS.app/HelloTDDiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloTDDiOSTests/HelloTDDiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		AEE00C892CB996E0F4F3C306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEE00F138738C7363C96142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE006500C86499EDBBC00DE /* Build configuration list for PBXNativeTarget "HelloTDDiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE0014AEB75D29B8AD1CE38 /* Release */,
+				AEE00582BAD2AC48B398FA2A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "HelloTDDiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE0095FC232E7A0401E2D09 /* Release */,
+				AEE001A8D3EDE560B5708092 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEE00C8FE7B889B73BCFC691 /* Build configuration list for PBXProject "HelloTDDiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE00F138738C7363C96142D /* Release */,
+				AEE00C892CB996E0F4F3C306 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE009FF97AF00B2D6D1728F /* Project object */;
+}
