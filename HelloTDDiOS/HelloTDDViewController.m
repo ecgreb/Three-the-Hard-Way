@@ -8,6 +8,7 @@
 
 #import "HelloTDDViewController.h"
 #import "DDLog.h"
+#import "HelloTDDViewControllerDelegate.h"
 
 @interface HelloTDDViewController ()
 
@@ -31,6 +32,16 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (IBAction)onButtonClick:(id)sender {
     DDLogVerbose(@"onButtonClick");
+}
+
+- (void)setDelegate:(id <HelloTDDViewControllerDelegate>)delegate {
+    if (![delegate conformsToProtocol:@protocol(HelloTDDViewControllerDelegate)]) {
+        [[NSException exceptionWithName: NSInvalidArgumentException
+                                 reason: @"Delegate object does not conform to correct protocol."
+                               userInfo: nil] raise];
+    }
+
+    _delegate = delegate;
 }
 
 @end

@@ -8,12 +8,28 @@
 
 #import "HelloTDDViewControllerTests.h"
 #import "HelloTDDViewController.h"
+#import "MockHelloTDDViewControllerDelegate.h"
 
-@implementation HelloTDDViewControllerTests
+@implementation HelloTDDViewControllerTests {
+    HelloTDDViewController *viewController;
+}
+
+- (void)setUp {
+    viewController = [[HelloTDDViewController alloc] init];
+}
 
 - (void)testNotNil {
-    HelloTDDViewController *viewController = [[HelloTDDViewController alloc] init];
     STAssertNotNil(viewController, @"View controller should not be nil.");
+}
+
+- (void)testNonConformingObjectCannotBeDelegate {
+    STAssertThrows(viewController.delegate = (id <HelloTDDViewControllerDelegate>)[NSNull null],
+            @"Non-conforiming object should throw an excpetion.");
+}
+
+- (void)testConformingObjectCanBeDelegate {
+    STAssertNoThrow(viewController.delegate = [[MockHelloTDDViewControllerDelegate alloc] init],
+            @"Conforming object should not throw an exception.");
 }
 
 @end

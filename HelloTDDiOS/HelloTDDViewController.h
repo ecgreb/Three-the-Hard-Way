@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class MockHelloTDDViewControllerDelegate;
+@protocol HelloTDDViewControllerDelegate;
+
 @interface HelloTDDViewController : UIViewController
+
+@property(nonatomic, weak) id<HelloTDDViewControllerDelegate> delegate;
 
 @end
