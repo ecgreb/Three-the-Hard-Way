@@ -8,4 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @protocol HelloTDDViewControllerDelegate <NSObject>
+
+- (void)onButtonClick;
+
 @end

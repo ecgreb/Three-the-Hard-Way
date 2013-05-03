@@ -9,4 +9,5 @@
 #import "HelloTDDViewControllerDelegate.h"
 
 @interface MockHelloTDDViewControllerDelegate : NSObject <HelloTDDViewControllerDelegate>
+@property(nonatomic) BOOL buttonWasClicked;
 @end

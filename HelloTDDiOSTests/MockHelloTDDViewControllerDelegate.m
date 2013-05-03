@@ -8,4 +8,9 @@
 #import "MockHelloTDDViewControllerDelegate.h"
 
 @implementation MockHelloTDDViewControllerDelegate
+
+- (void)onButtonClick {
+    _buttonWasClicked = true;
+}
+
 @end

@@ -32,4 +32,12 @@
             @"Conforming object should not throw an exception.");
 }
 
+- (void)testOnButtonClickNotifiesDelegate {
+    MockHelloTDDViewControllerDelegate *delegate = [[MockHelloTDDViewControllerDelegate alloc] init];
+    viewController.delegate  = delegate;
+    [viewController onButtonClick:nil];
+    BOOL result = delegate.buttonWasClicked;
+    STAssertTrue(result, @"View controller should notify delegate on button click.");
+}
+
 @end

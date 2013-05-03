@@ -11,9 +11,6 @@
 #import "HelloTDDViewControllerDelegate.h"
 
 @interface HelloTDDViewController ()
-
-- (IBAction)onButtonClick:(id)sender;
-
 @end
 
 @implementation HelloTDDViewController
@@ -32,6 +29,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (IBAction)onButtonClick:(id)sender {
     DDLogVerbose(@"onButtonClick");
+    [_delegate onButtonClick];
 }
 
 - (void)setDelegate:(id <HelloTDDViewControllerDelegate>)delegate {

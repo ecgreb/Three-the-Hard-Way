@@ -15,4 +15,6 @@
 
 @property(nonatomic, weak) id<HelloTDDViewControllerDelegate> delegate;
 
+- (IBAction)onButtonClick:(id)sender;
+
 @end
