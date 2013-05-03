@@ -79,6 +79,7 @@
 		AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDiOSTests.h; sourceTree = "<group>"; };
 		AEE00C6B40D3AED53A326944 /* MockHelloTDDViewControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockHelloTDDViewControllerDelegate.m; sourceTree = "<group>"; };
 		AEE00C786373F04063258E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEE00D717DBFDFA2D1957A16 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOS-Info.plist"; sourceTree = "<group>"; };
 		AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTDDiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00E36E5E2CAFAF28FA8DC /* MockHelloTDDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHelloTDDViewController.h; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 				AEE00A376B017DE775F7B638 /* Podfile */,
 				B016847C942F4DD48872D363 /* Pods.xcconfig */,
 				B17E40DEE6344ADE8E5F9FE6 /* Pods-HelloTDDiOSTests.xcconfig */,
+				AEE00D717DBFDFA2D1957A16 /* README */,
 			);
 			sourceTree = "<group>";
 		};
