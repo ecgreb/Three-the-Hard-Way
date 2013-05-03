@@ -32,7 +32,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 - (IBAction)onButtonClick:(id)sender {
     DDLogVerbose(@"onButtonClick");
     NSString *name = _nameField.text;
-    [_delegate sayHello:name];
+    [_delegate sayHello:name toMyLittleFriend:self];
 }
 
 - (void)setDelegate:(id <HelloTDDViewControllerDelegate>)delegate {

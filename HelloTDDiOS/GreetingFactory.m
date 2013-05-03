@@ -9,8 +9,8 @@
 
 @implementation GreetingFactory
 
-- (void)sayHello:(NSString *)name {
-    [_viewController showGreeting:[NSString stringWithFormat:@"Hello, %@!", name]];
+- (void)sayHello:(NSString *)name toMyLittleFriend:viewController {
+    [viewController showGreeting:[NSString stringWithFormat:@"Hello, %@!", name]];
 }
 
 @end

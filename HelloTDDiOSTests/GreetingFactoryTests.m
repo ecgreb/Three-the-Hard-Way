@@ -29,8 +29,7 @@
 
 - (void)testSayHelloShouldFormatGreetingAndSendToViewController {
     MockHelloTDDViewController *viewController = [[MockHelloTDDViewController alloc] init];
-    greetingFactory.viewController = viewController;
-    [greetingFactory sayHello:@"First Last"];
+    [greetingFactory sayHello:@"First Last" toMyLittleFriend:viewController];
     NSString *lastMessageShown = viewController.lastGreetingShown;
     STAssertEqualObjects(lastMessageShown, @"Hello, First Last!", @"Greeting factory should format"
             " greeting using name given and send it to the view controller for display.");

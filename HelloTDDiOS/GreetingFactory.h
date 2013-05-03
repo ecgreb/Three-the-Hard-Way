@@ -9,10 +9,5 @@
 #import "HelloTDDViewController.h"
 #import "HelloTDDViewControllerDelegate.h"
 
-@class MockHelloTDDViewController;
-
 @interface GreetingFactory : NSObject <HelloTDDViewControllerDelegate>
-
-@property(nonatomic, strong) HelloTDDViewController *viewController;
-
 @end

@@ -7,8 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class HelloTDDViewController;
+
 @protocol HelloTDDViewControllerDelegate <NSObject>
 
-- (void)sayHello:(NSString *)name;
+- (void)sayHello:(NSString *)name toMyLittleFriend:(HelloTDDViewController *)viewController;
 
 @end
