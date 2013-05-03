@@ -14,6 +14,8 @@
 @interface HelloTDDViewController : UIViewController
 
 @property(nonatomic, weak) id<HelloTDDViewControllerDelegate> delegate;
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UILabel *helloLabel;
 
 - (IBAction)onButtonClick:(id)sender;
 

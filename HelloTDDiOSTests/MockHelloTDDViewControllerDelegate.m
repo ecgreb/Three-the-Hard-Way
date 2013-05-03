@@ -9,8 +9,9 @@
 
 @implementation MockHelloTDDViewControllerDelegate
 
-- (void)onButtonClick {
+- (void)sayHello:(NSString *)name {
     _buttonWasClicked = true;
+    _lastNameSent = name;
 }
 
 @end

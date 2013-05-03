@@ -10,4 +10,5 @@
 
 @interface MockHelloTDDViewControllerDelegate : NSObject <HelloTDDViewControllerDelegate>
 @property(nonatomic) BOOL buttonWasClicked;
+@property(nonatomic, copy) NSString *lastNameSent;
 @end

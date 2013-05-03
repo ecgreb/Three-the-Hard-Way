@@ -11,8 +11,6 @@
 #import "HelloTDDViewControllerDelegate.h"
 
 @interface HelloTDDViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *nameField;
-@property (weak, nonatomic) IBOutlet UILabel *helloLabel;
 @end
 
 @implementation HelloTDDViewController
@@ -31,7 +29,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (IBAction)onButtonClick:(id)sender {
     DDLogVerbose(@"onButtonClick");
-    [_delegate onButtonClick];
+    NSString *name = _nameField.text;
+    [_delegate sayHello:name];
 }
 
 - (void)setDelegate:(id <HelloTDDViewControllerDelegate>)delegate {

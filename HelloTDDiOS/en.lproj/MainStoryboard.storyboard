@@ -68,7 +68,7 @@
         <class className="HelloTDDViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HelloTDDViewController.h"/>
             <relationships>
-                <relationship kind="action" name="onButtonClick:"/>
+                <relationship kind="action" name="sayHello:"/>
                 <relationship kind="outlet" name="helloLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="nameField" candidateClass="UITextField"/>
             </relationships>

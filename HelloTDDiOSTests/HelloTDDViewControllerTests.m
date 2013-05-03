@@ -51,4 +51,15 @@
     STAssertTrue(result, @"View controller should notify delegate on button click.");
 }
 
+- (void)testOnButtonClickPassesNameToDelegate {
+    MockHelloTDDViewControllerDelegate *delegate = [[MockHelloTDDViewControllerDelegate alloc] init];
+    viewController.delegate = delegate;
+    UITextField *textField = [[UITextField alloc] init];
+    textField.text = @"First Last";
+    viewController.nameField = textField;
+    [viewController onButtonClick:nil];
+    STAssertEqualObjects(delegate.lastNameSent, @"First Last",
+            @"View controller should pass name to delegate.");
+}
+
 @end

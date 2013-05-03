@@ -9,6 +9,6 @@
 
 @protocol HelloTDDViewControllerDelegate <NSObject>
 
-- (void)onButtonClick;
+- (void)sayHello:(NSString *)name;
 
 @end
