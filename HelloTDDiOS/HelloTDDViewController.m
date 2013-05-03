@@ -9,6 +9,7 @@
 #import "HelloTDDViewController.h"
 #import "DDLog.h"
 #import "HelloTDDViewControllerDelegate.h"
+#import "GreetingFactory.h"
 
 @interface HelloTDDViewController ()
 @end
@@ -19,7 +20,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    GreetingFactory *greetingFactory = [[GreetingFactory alloc] init];
+    _delegate = greetingFactory;
 }
 
 - (void)didReceiveMemoryWarning {
