@@ -10,6 +10,7 @@
 		4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; settings = {}; };
 		9896D01B5E6D4973873E8F93 /* libPods-HelloTDDiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */; settings = {}; };
 		AEE00047E342EC272BF3BB0B /* HelloTDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */; };
+		AEE001EBF90EF307BB37039F /* HelloTDDViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00263203FAC8A91D53FD6 /* HelloTDDViewControllerTests.m */; };
 		AEE00222D3CD8DF396EE1F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00802F590C8BA5E15E4E3 /* InfoPlist.strings */; };
 		AEE00288C20B31D33476C6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00C786373F04063258E51 /* main.m */; };
 		AEE002C80363B313DE4A0E8B /* HelloTDDiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */; };
@@ -44,6 +45,7 @@
 		AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDiOSTests.m; sourceTree = "<group>"; };
 		AEE0010284D0B73F568520D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AEE00263203FAC8A91D53FD6 /* HelloTDDViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloTDDViewControllerTests.m; sourceTree = "<group>"; };
 		AEE0042FE64F97FED896FA31 /* HelloTDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDAppDelegate.h; sourceTree = "<group>"; };
 		AEE005E292618E4EB81E08AB /* HelloTDDiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOSTests-Info.plist"; sourceTree = "<group>"; };
 		AEE00675680ADCC2F916D80D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		AEE007CC35ED26BBFD341463 /* HelloTDDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewController.h; sourceTree = "<group>"; };
 		AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTDDiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00883768623E307A795BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEE00899E04A2AAA83F99E15 /* HelloTDDViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewControllerTests.h; sourceTree = "<group>"; };
 		AEE008CF699601431531BD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AEE009551AFC792D4E450BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				AEE00C20941D16AD69D6A755 /* Supporting Files */,
 				AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */,
 				AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */,
+				AEE00899E04A2AAA83F99E15 /* HelloTDDViewControllerTests.h */,
+				AEE00263203FAC8A91D53FD6 /* HelloTDDViewControllerTests.m */,
 			);
 			path = HelloTDDiOSTests;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE002C80363B313DE4A0E8B /* HelloTDDiOSTests.m in Sources */,
+				AEE001EBF90EF307BB37039F /* HelloTDDViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
