@@ -33,16 +33,26 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onButtonClick:" destination="2" eventType="touchUpInside" id="Dvo-Hd-SWw"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxi-tC-8qT">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hNZ-wr-qi8" firstAttribute="centerX" secondItem="zyp-C0-cZ3" secondAttribute="centerX" type="default" id="2Pv-Bp-YuS"/>
-                            <constraint firstItem="zyp-C0-cZ3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="44" id="Ems-6T-bOt"/>
-                            <constraint firstItem="hNZ-wr-qi8" firstAttribute="top" secondItem="zyp-C0-cZ3" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="HEM-y3-duL"/>
-                            <constraint firstItem="hNZ-wr-qi8" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Kfp-CD-QHS"/>
-                            <constraint firstItem="gng-9d-Fm2" firstAttribute="top" secondItem="3" secondAttribute="top" constant="143" id="di2-xg-PcY"/>
+                            <constraint firstItem="gng-9d-Fm2" firstAttribute="top" secondItem="3" secondAttribute="top" constant="108" id="2fK-SX-sLW"/>
+                            <constraint firstItem="Wxi-tC-8qT" firstAttribute="centerX" secondItem="gng-9d-Fm2" secondAttribute="centerX" type="default" id="42Y-X9-7n5"/>
+                            <constraint firstItem="hNZ-wr-qi8" firstAttribute="top" secondItem="zyp-C0-cZ3" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="AKa-WU-wGm"/>
+                            <constraint firstItem="Wxi-tC-8qT" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="T8q-3Y-34o"/>
                             <constraint firstItem="gng-9d-Fm2" firstAttribute="centerX" secondItem="hNZ-wr-qi8" secondAttribute="centerX" type="default" id="eP7-x5-r1S"/>
+                            <constraint firstItem="zyp-C0-cZ3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="nQk-0z-Vtm"/>
+                            <constraint firstItem="gng-9d-Fm2" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="y0h-BK-7LR"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -56,6 +66,9 @@
         </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="onButtonClick:"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
