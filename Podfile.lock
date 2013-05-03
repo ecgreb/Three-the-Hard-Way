@@ -1,13 +1,16 @@
 PODS:
   - CocoaLumberjack (1.6.2)
+  - KIF (0.0.1)
   - Kiwi (2.0.6)
 
 DEPENDENCIES:
   - CocoaLumberjack
+  - KIF
   - Kiwi
 
 SPEC CHECKSUMS:
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
+  KIF: 26ce47f3f37660ca9bb0b62f9545597e21eca3fc
   Kiwi: 56082a80f942de4d10423d8d8a599ab30cf50228
 
 COCOAPODS: 0.19.1

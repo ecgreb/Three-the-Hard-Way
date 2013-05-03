@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; settings = {}; };
-		9896D01B5E6D4973873E8F93 /* libPods-HelloTDDiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */; settings = {}; };
+		1FE71672173455ED00B5EA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00C786373F04063258E51 /* main.m */; };
+		1FE71673173455ED00B5EA95 /* HelloTDDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00764205D323FAEC3A0FD /* HelloTDDAppDelegate.m */; };
+		1FE71674173455ED00B5EA95 /* HelloTDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */; };
+		1FE71675173455ED00B5EA95 /* GreetingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00B4D5FDEFEBBDDAA503C /* GreetingFactory.m */; };
+		1FE71677173455ED00B5EA95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
+		1FE71678173455ED00B5EA95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
+		1FE71679173455ED00B5EA95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */; };
+		1FE7167A173455ED00B5EA95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; };
+		1FE7167C173455ED00B5EA95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00BE687422D806DC792F7 /* InfoPlist.strings */; };
+		1FE7167D173455ED00B5EA95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE00675680ADCC2F916D80D /* Default.png */; };
+		1FE7167E173455ED00B5EA95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */; };
+		1FE7167F173455ED00B5EA95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */; };
+		1FE71680173455ED00B5EA95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE00A70FDE94710653BB715 /* MainStoryboard.storyboard */; };
+		4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; };
+		9896D01B5E6D4973873E8F93 /* libPods-HelloTDDiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */; };
 		AEE00047E342EC272BF3BB0B /* HelloTDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */; };
+		AEE000B33F22DC923531D863 /* KIFTestScenario+HelloTDDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00D8EA8FF7E779AA82ACC /* KIFTestScenario+HelloTDDAdditions.m */; };
 		AEE000DCE08D64C33436D148 /* HelloTDDViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE000FFAF7E13243259F3D4 /* HelloTDDViewControllerSpec.m */; };
 		AEE00110D172DE6A2D715ED5 /* GreetingFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE008E652F7293371553EFF /* GreetingFactoryTests.m */; };
 		AEE001684863CFD188A78945 /* GreetingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00B4D5FDEFEBBDDAA503C /* GreetingFactory.m */; };
@@ -27,11 +41,13 @@
 		AEE0092785C9CD6CF3ABF28C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
 		AEE0092C846678BB71A38DCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */; };
 		AEE0094F37728EA7EC38196E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
+		AEE00B9F622FDCA9CF735BBD /* HelloTDDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AD1709A65B69522BB98 /* HelloTDDTestController.m */; };
 		AEE00D9B9F9707FE35EB7EB0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */; };
 		AEE00F053FB5E585720CE20E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE00A70FDE94710653BB715 /* MainStoryboard.storyboard */; };
 		AEE00F37C54E1FA65D460973 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */; };
 		AEE00F50DFD04F34F59F8583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00BE687422D806DC792F7 /* InfoPlist.strings */; };
 		AEE00FDE60EEA232BA43B3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
+		EE3D8D69705648E28615E7F9 /* libPods-HelloTDDiOSIntegrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */; settings = {}; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39CD9234CE914E95949849DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HelloTDDiOSTests.a"; path = "libPods-HelloTDDiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE71685173455ED00B5EA95 /* HelloTDDiOSIntegrationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTDDiOSIntegrationTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE71686173455EE00B5EA95 /* HelloTDDiOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloTDDiOS copy-Info.plist"; path = "/Users/chuckg/Code/iOS/HelloTDDiOS/HelloTDDiOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		39CD9234CE914E95949849DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AF7C160663487E98B3846E /* Pods-HelloTDDiOSIntegrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTDDiOSIntegrationTests.xcconfig"; path = "Pods/Pods-HelloTDDiOSIntegrationTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HelloTDDiOSIntegrationTests.a"; path = "libPods-HelloTDDiOSIntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloTDDiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00001B27E8FCF089BC780 /* HelloTDDiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloTDDiOS-Prefix.pch"; sourceTree = "<group>"; };
 		AEE000839A44408D9273B9DF /* MockHelloTDDViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHelloTDDViewControllerDelegate.h; sourceTree = "<group>"; };
 		AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDiOSTests.m; sourceTree = "<group>"; };
@@ -58,6 +78,7 @@
 		AEE00263203FAC8A91D53FD6 /* HelloTDDViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloTDDViewControllerTests.m; sourceTree = "<group>"; };
 		AEE0035799FE2C678DCA1094 /* GreetingFactoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingFactoryTests.h; sourceTree = "<group>"; };
 		AEE0042FE64F97FED896FA31 /* HelloTDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDAppDelegate.h; sourceTree = "<group>"; };
+		AEE004F4AFAF781396870DCB /* KIFTestScenario+HelloTDDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+HelloTDDAdditions.h"; sourceTree = "<group>"; };
 		AEE005E292618E4EB81E08AB /* HelloTDDiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOSTests-Info.plist"; sourceTree = "<group>"; };
 		AEE005FCCCB24AEC55881006 /* GreetingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingFactory.h; sourceTree = "<group>"; };
 		AEE00675680ADCC2F916D80D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -74,21 +95,36 @@
 		AEE009551AFC792D4E450BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE00A376B017DE775F7B638 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDViewController.m; sourceTree = "<group>"; };
+		AEE00AD1709A65B69522BB98 /* HelloTDDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloTDDTestController.m; sourceTree = "<group>"; };
 		AEE00B4D5FDEFEBBDDAA503C /* GreetingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetingFactory.m; sourceTree = "<group>"; };
 		AEE00C31A22177BB8480F2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDiOSTests.h; sourceTree = "<group>"; };
 		AEE00C6B40D3AED53A326944 /* MockHelloTDDViewControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockHelloTDDViewControllerDelegate.m; sourceTree = "<group>"; };
 		AEE00C786373F04063258E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEE00D717DBFDFA2D1957A16 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		AEE00D8EA8FF7E779AA82ACC /* KIFTestScenario+HelloTDDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+HelloTDDAdditions.m"; sourceTree = "<group>"; };
 		AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOS-Info.plist"; sourceTree = "<group>"; };
 		AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTDDiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00E36E5E2CAFAF28FA8DC /* MockHelloTDDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHelloTDDViewController.h; sourceTree = "<group>"; };
+		AEE00F6887EDE6EFF59A5AEC /* HelloTDDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDTestController.h; sourceTree = "<group>"; };
 		AEE00FF04D588E5278F30305 /* HelloTDDViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewControllerDelegate.h; sourceTree = "<group>"; };
 		B016847C942F4DD48872D363 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		B17E40DEE6344ADE8E5F9FE6 /* Pods-HelloTDDiOSTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTDDiOSTests.xcconfig"; path = "Pods/Pods-HelloTDDiOSTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1FE71676173455ED00B5EA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE71677173455ED00B5EA95 /* UIKit.framework in Frameworks */,
+				1FE71678173455ED00B5EA95 /* Foundation.framework in Frameworks */,
+				1FE71679173455ED00B5EA95 /* CoreGraphics.framework in Frameworks */,
+				1FE7167A173455ED00B5EA95 /* libPods.a in Frameworks */,
+				EE3D8D69705648E28615E7F9 /* libPods-HelloTDDiOSIntegrationTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE002C87A2CC950883E3AAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +193,9 @@
 				B016847C942F4DD48872D363 /* Pods.xcconfig */,
 				B17E40DEE6344ADE8E5F9FE6 /* Pods-HelloTDDiOSTests.xcconfig */,
 				AEE00D717DBFDFA2D1957A16 /* README */,
+				1FE71686173455EE00B5EA95 /* HelloTDDiOS copy-Info.plist */,
+				52AF7C160663487E98B3846E /* Pods-HelloTDDiOSIntegrationTests.xcconfig */,
+				AEE00BAABE6EAAFA597DB43C /* HelloTDDiOSIntegrationTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +204,7 @@
 			children = (
 				AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */,
 				AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */,
+				1FE71685173455ED00B5EA95 /* HelloTDDiOSIntegrationTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +218,7 @@
 				AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */,
 				39CD9234CE914E95949849DD /* libPods.a */,
 				A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */,
+				74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,6 +246,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AEE00BAABE6EAAFA597DB43C /* HelloTDDiOSIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE00F6887EDE6EFF59A5AEC /* HelloTDDTestController.h */,
+				AEE00AD1709A65B69522BB98 /* HelloTDDTestController.m */,
+				AEE00D8EA8FF7E779AA82ACC /* KIFTestScenario+HelloTDDAdditions.m */,
+				AEE004F4AFAF781396870DCB /* KIFTestScenario+HelloTDDAdditions.h */,
+			);
+			path = HelloTDDiOSIntegrationTests;
+			sourceTree = "<group>";
+		};
 		AEE00C20941D16AD69D6A755 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +280,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1FE7166F173455ED00B5EA95 /* HelloTDDiOSIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE71682173455ED00B5EA95 /* Build configuration list for PBXNativeTarget "HelloTDDiOSIntegrationTests" */;
+			buildPhases = (
+				B255A5F6DA2745C299AABC9F /* Check Pods Manifest.lock */,
+				1FE71670173455ED00B5EA95 /* Check Pods Manifest.lock */,
+				1FE71671173455ED00B5EA95 /* Sources */,
+				1FE71676173455ED00B5EA95 /* Frameworks */,
+				1FE7167B173455ED00B5EA95 /* Resources */,
+				1FE71681173455ED00B5EA95 /* Copy Pods Resources */,
+				F82DD30A33214391954BC9CF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTDDiOSIntegrationTests;
+			productName = HelloTDDiOS;
+			productReference = 1FE71685173455ED00B5EA95 /* HelloTDDiOSIntegrationTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AEE000D2BBB2C117A39E9382 /* HelloTDDiOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "HelloTDDiOSTests" */;
@@ -292,11 +365,24 @@
 			targets = (
 				AEE00F236B6CC11F9164C786 /* HelloTDDiOS */,
 				AEE000D2BBB2C117A39E9382 /* HelloTDDiOSTests */,
+				1FE7166F173455ED00B5EA95 /* HelloTDDiOSIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1FE7167B173455ED00B5EA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE7167C173455ED00B5EA95 /* InfoPlist.strings in Resources */,
+				1FE7167D173455ED00B5EA95 /* Default.png in Resources */,
+				1FE7167E173455ED00B5EA95 /* Default@2x.png in Resources */,
+				1FE7167F173455ED00B5EA95 /* Default-568h@2x.png in Resources */,
+				1FE71680173455ED00B5EA95 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE008E4662C67A1B9C2AC07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,7 +419,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 1;
+		};
+		1FE71670173455ED00B5EA95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		1FE71681173455ED00B5EA95 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 		572D73F033DD46DC9DF72CA3 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -348,7 +461,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 1;
 		};
 		AD995CC16E0E42FE84023D16 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -363,7 +475,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-HelloTDDiOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 1;
 		};
 		AE01651E180F42D29874136F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -378,7 +489,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 1;
 		};
 		AEE008AA093246F95383FDFE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -393,9 +503,52 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		B255A5F6DA2745C299AABC9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 1;
+		};
+		F82DD30A33214391954BC9CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HelloTDDiOSIntegrationTests-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1FE71671173455ED00B5EA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE71672173455ED00B5EA95 /* main.m in Sources */,
+				1FE71673173455ED00B5EA95 /* HelloTDDAppDelegate.m in Sources */,
+				1FE71674173455ED00B5EA95 /* HelloTDDViewController.m in Sources */,
+				1FE71675173455ED00B5EA95 /* GreetingFactory.m in Sources */,
+				AEE00B9F622FDCA9CF735BBD /* HelloTDDTestController.m in Sources */,
+				AEE000B33F22DC923531D863 /* KIFTestScenario+HelloTDDAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEE006C1A948C3D3A52CA27E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +612,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1FE71683173455ED00B5EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AF7C160663487E98B3846E /* Pods-HelloTDDiOSIntegrationTests.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloTDDiOS copy-Info.plist";
+				PRODUCT_NAME = HelloTDDiOSIntegrationTests;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1FE71684173455ED00B5EA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AF7C160663487E98B3846E /* Pods-HelloTDDiOSIntegrationTests.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloTDDiOS/HelloTDDiOS-Prefix.pch";
+				INFOPLIST_FILE = "HelloTDDiOS copy-Info.plist";
+				PRODUCT_NAME = HelloTDDiOSIntegrationTests;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
 		AEE0014AEB75D29B8AD1CE38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B016847C942F4DD48872D363 /* Pods.xcconfig */;
@@ -584,6 +763,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1FE71682173455ED00B5EA95 /* Build configuration list for PBXNativeTarget "HelloTDDiOSIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE71683173455ED00B5EA95 /* Release */,
+				1FE71684173455ED00B5EA95 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEE006500C86499EDBBC00DE /* Build configuration list for PBXNativeTarget "HelloTDDiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -591,6 +779,7 @@
 				AEE00582BAD2AC48B398FA2A /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "HelloTDDiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +788,7 @@
 				AEE001A8D3EDE560B5708092 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEE00C8FE7B889B73BCFC691 /* Build configuration list for PBXProject "HelloTDDiOS" */ = {
 			isa = XCConfigurationList;

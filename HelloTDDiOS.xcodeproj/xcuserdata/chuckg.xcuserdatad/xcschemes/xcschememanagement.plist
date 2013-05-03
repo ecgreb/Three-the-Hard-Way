@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HelloTDDiOS copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>HelloTDDiOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>HelloTDDiOSIntegrationTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>HelloTDDiOSTests.xcscheme</key>
 		<dict>
@@ -17,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1FE7166F173455ED00B5EA95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AEE000D2BBB2C117A39E9382</key>
 		<dict>
 			<key>primary</key>
