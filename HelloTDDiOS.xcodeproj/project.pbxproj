@@ -23,6 +23,7 @@
 		AEE0062087B5AA2BFBA5B1F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE00675680ADCC2F916D80D /* Default.png */; };
 		AEE006BFBB840BF5B98DDB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
 		AEE00700E5A436C7E4F0DBA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */; };
+		AEE0082A77E5E25DBD08598A /* GreetingFactorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE001E7D3F0CEA3AF306DF3 /* GreetingFactorySpec.m */; };
 		AEE0092785C9CD6CF3ABF28C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
 		AEE0092C846678BB71A38DCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */; };
 		AEE0094F37728EA7EC38196E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00883768623E307A795BD /* UIKit.framework */; };
@@ -53,6 +54,7 @@
 		AEE000FFAF7E13243259F3D4 /* HelloTDDViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloTDDViewControllerSpec.m; sourceTree = "<group>"; };
 		AEE0010284D0B73F568520D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AEE001E7D3F0CEA3AF306DF3 /* GreetingFactorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetingFactorySpec.m; sourceTree = "<group>"; };
 		AEE00263203FAC8A91D53FD6 /* HelloTDDViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloTDDViewControllerTests.m; sourceTree = "<group>"; };
 		AEE0035799FE2C678DCA1094 /* GreetingFactoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingFactoryTests.h; sourceTree = "<group>"; };
 		AEE0042FE64F97FED896FA31 /* HelloTDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDAppDelegate.h; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				AEE000FFAF7E13243259F3D4 /* HelloTDDViewControllerSpec.m */,
+				AEE001E7D3F0CEA3AF306DF3 /* GreetingFactorySpec.m */,
 			);
 			name = Specs;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				AEE000DCE08D64C33436D148 /* HelloTDDViewControllerSpec.m in Sources */,
 				AEE0060253495FE39AE1893B /* MockHelloTDDViewController.m in Sources */,
 				AEE005C7817668B11ECD32C2 /* MockHelloTDDViewControllerDelegate.m in Sources */,
+				AEE0082A77E5E25DBD08598A /* GreetingFactorySpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
