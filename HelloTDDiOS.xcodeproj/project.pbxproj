@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; settings = {}; };
 		9896D01B5E6D4973873E8F93 /* libPods-HelloTDDiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */; settings = {}; };
-		AEE00047E342EC272BF3BB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* ViewController.m */; };
+		AEE00047E342EC272BF3BB0B /* HelloTDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */; };
 		AEE00222D3CD8DF396EE1F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00802F590C8BA5E15E4E3 /* InfoPlist.strings */; };
 		AEE00288C20B31D33476C6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00C786373F04063258E51 /* main.m */; };
 		AEE002C80363B313DE4A0E8B /* HelloTDDiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */; };
-		AEE0042728DB5CE4D917982C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00764205D323FAEC3A0FD /* AppDelegate.m */; };
+		AEE0042728DB5CE4D917982C /* HelloTDDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00764205D323FAEC3A0FD /* HelloTDDAppDelegate.m */; };
 		AEE0062087B5AA2BFBA5B1F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE00675680ADCC2F916D80D /* Default.png */; };
 		AEE006BFBB840BF5B98DDB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
 		AEE00700E5A436C7E4F0DBA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */; };
@@ -44,20 +44,20 @@
 		AEE0009DCC49982897202781 /* HelloTDDiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDiOSTests.m; sourceTree = "<group>"; };
 		AEE0010284D0B73F568520D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		AEE0042FE64F97FED896FA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEE0042FE64F97FED896FA31 /* HelloTDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDAppDelegate.h; sourceTree = "<group>"; };
 		AEE005E292618E4EB81E08AB /* HelloTDDiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOSTests-Info.plist"; sourceTree = "<group>"; };
 		AEE00675680ADCC2F916D80D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AEE0068F78563C5A3AF69128 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AEE0072AA0767CC6DBF6C520 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AEE00764205D323FAEC3A0FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEE007CC35ED26BBFD341463 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEE00764205D323FAEC3A0FD /* HelloTDDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDAppDelegate.m; sourceTree = "<group>"; };
+		AEE007CC35ED26BBFD341463 /* HelloTDDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewController.h; sourceTree = "<group>"; };
 		AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTDDiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00883768623E307A795BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AEE008CF699601431531BD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE008E19BA43059566CC0B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AEE009551AFC792D4E450BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEE00A376B017DE775F7B638 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		AEE00AB186EB21485ADF2D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDViewController.m; sourceTree = "<group>"; };
 		AEE00C31A22177BB8480F2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEE00C6491C808FA637489E2 /* HelloTDDiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDiOSTests.h; sourceTree = "<group>"; };
 		AEE00C786373F04063258E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,11 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				AEE005D734D4DFD5DF882A6B /* Supporting Files */,
-				AEE0042FE64F97FED896FA31 /* AppDelegate.h */,
-				AEE00764205D323FAEC3A0FD /* AppDelegate.m */,
+				AEE0042FE64F97FED896FA31 /* HelloTDDAppDelegate.h */,
+				AEE00764205D323FAEC3A0FD /* HelloTDDAppDelegate.m */,
 				AEE00A70FDE94710653BB715 /* MainStoryboard.storyboard */,
-				AEE007CC35ED26BBFD341463 /* ViewController.h */,
-				AEE00AB186EB21485ADF2D2D /* ViewController.m */,
+				AEE007CC35ED26BBFD341463 /* HelloTDDViewController.h */,
+				AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */,
 			);
 			path = HelloTDDiOS;
 			sourceTree = "<group>";
@@ -358,8 +358,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE00288C20B31D33476C6F1 /* main.m in Sources */,
-				AEE0042728DB5CE4D917982C /* AppDelegate.m in Sources */,
-				AEE00047E342EC272BF3BB0B /* ViewController.m in Sources */,
+				AEE0042728DB5CE4D917982C /* HelloTDDAppDelegate.m in Sources */,
+				AEE00047E342EC272BF3BB0B /* HelloTDDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

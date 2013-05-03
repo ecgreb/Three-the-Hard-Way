@@ -1,17 +1,17 @@
 //
-//  AppDelegate.m
+//  HelloTDDAppDelegate.m
 //  HelloTDDiOS
 //
 //  Created by Chuck Greb on 05/02/13.
 //  Copyright (c) 2013 E. C. Greb. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "HelloTDDAppDelegate.h"
 #import "DDLog.h"
 #import "DDTTYLogger.h"
 #import "DDASLLogger.h"
 
-@implementation AppDelegate
+@implementation HelloTDDAppDelegate
 
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 

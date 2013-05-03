@@ -1,21 +1,21 @@
 //
-//  ViewController.m
+//  HelloTDDViewController.m
 //  HelloTDDiOS
 //
 //  Created by Chuck Greb on 05/02/13.
 //  Copyright (c) 2013 E. C. Greb. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HelloTDDViewController.h"
 #import "DDLog.h"
 
-@interface ViewController ()
+@interface HelloTDDViewController ()
 
 - (IBAction)onButtonClick:(id)sender;
 
 @end
 
-@implementation ViewController
+@implementation HelloTDDViewController
 
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 

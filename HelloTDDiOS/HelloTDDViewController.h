@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HelloTDDViewController.h
 //  HelloTDDiOS
 //
 //  Created by Chuck Greb on 05/02/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface HelloTDDViewController : UIViewController
 
 @end
