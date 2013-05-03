@@ -18,6 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *helloLabel;
 
 - (IBAction)onButtonClick:(id)sender;
-- (void)showMessage:(NSString *)message;
+- (void)showGreeting:(NSString *)message;
 
 @end
