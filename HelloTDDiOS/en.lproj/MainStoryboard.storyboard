@@ -37,7 +37,7 @@
                                     <action selector="onButtonClick:" destination="2" eventType="touchUpInside" id="Dvo-Hd-SWw"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxi-tC-8qT">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxi-tC-8qT">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -68,7 +68,7 @@
         <class className="HelloTDDViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HelloTDDViewController.h"/>
             <relationships>
-                <relationship kind="action" name="sayHello:"/>
+                <relationship kind="action" name="onButtonClick:"/>
                 <relationship kind="outlet" name="helloLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="nameField" candidateClass="UITextField"/>
             </relationships>
