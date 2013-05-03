@@ -62,4 +62,12 @@
             @"View controller should pass name to delegate.");
 }
 
+- (void)testShowMessageUpdatesHelloLabel {
+    UILabel *label = [[UILabel alloc] init];
+    viewController.helloLabel = label;
+    [viewController showMessage: @"Hello, First Last!"];
+    STAssertEqualObjects(label.text, @"Hello, First Last!",
+            @"View controller should display message.");
+}
+
 @end

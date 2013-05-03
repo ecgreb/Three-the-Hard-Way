@@ -43,4 +43,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     _delegate = delegate;
 }
 
+- (void)showMessage:(NSString *)message {
+    _helloLabel.text = message;
+}
+
 @end
