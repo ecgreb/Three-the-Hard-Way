@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 E. C. Greb. All rights reserved.
 //
 
+#import <objc/runtime.h>
 #import "HelloTDDViewControllerTests.h"
 #import "HelloTDDViewController.h"
 #import "MockHelloTDDViewControllerDelegate.h"
@@ -20,6 +21,16 @@
 
 - (void)testNotNil {
     STAssertNotNil(viewController, @"View controller should not be nil.");
+}
+
+- (void)testViewControllerHasNameFieldProperty {
+    objc_property_t property = class_getProperty([viewController class], "nameField");
+    STAssertTrue(property != NULL, @"HelloTDDiOS needs a text field.");
+}
+
+- (void)testViewControllerHasHelloLabelProperty {
+    objc_property_t property = class_getProperty([viewController class], "helloLabel");
+    STAssertTrue(property != NULL, @"HelloTDDiOS needs a hello label.");
 }
 
 - (void)testNonConformingObjectCannotBeDelegate {

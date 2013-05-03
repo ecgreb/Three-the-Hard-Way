@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HelloTDD View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="HelloTDDViewController" sceneMemberID="viewController">
@@ -55,20 +55,26 @@
                             <constraint firstItem="gng-9d-Fm2" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="y0h-BK-7LR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="Wxi-tC-8qT" id="7k5-Db-feZ"/>
+                        <outlet property="nameField" destination="hNZ-wr-qi8" id="CaO-3X-CKC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
     <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
         <class className="HelloTDDViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HelloTDDViewController.h"/>
             <relationships>
                 <relationship kind="action" name="onButtonClick:"/>
+                <relationship kind="outlet" name="helloLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="nameField" candidateClass="UITextField"/>
             </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
