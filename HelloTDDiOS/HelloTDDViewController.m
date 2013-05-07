@@ -20,6 +20,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _nameField.accessibilityLabel = @"Name";
+    _helloLabel.accessibilityLabel = @"Greeting";
     GreetingFactory *greetingFactory = [[GreetingFactory alloc] init];
     _delegate = greetingFactory;
 }

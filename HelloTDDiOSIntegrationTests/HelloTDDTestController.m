@@ -12,7 +12,7 @@
 @implementation HelloTDDTestController
 
 - (void)initializeScenarios {
-    [self addScenario:[KIFTestScenario testScenario]];
+    [self addScenario:[KIFTestScenario scenarioToDisplayGreeting]];
 }
 
 @end

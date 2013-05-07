@@ -23,6 +23,7 @@
 		4909D61EABA442F5AC42D31A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD9234CE914E95949849DD /* libPods.a */; };
 		9896D01B5E6D4973873E8F93 /* libPods-HelloTDDiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */; };
 		AEE00047E342EC272BF3BB0B /* HelloTDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00AB186EB21485ADF2D2D /* HelloTDDViewController.m */; };
+		AEE0009A9EEBF3806037AD09 /* KIFTestStep+HelloTDDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00808F5A0C045F61D7486 /* KIFTestStep+HelloTDDAdditions.m */; };
 		AEE000B33F22DC923531D863 /* KIFTestScenario+HelloTDDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE00D8EA8FF7E779AA82ACC /* KIFTestScenario+HelloTDDAdditions.m */; };
 		AEE000DCE08D64C33436D148 /* HelloTDDViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE000FFAF7E13243259F3D4 /* HelloTDDViewControllerSpec.m */; };
 		AEE00110D172DE6A2D715ED5 /* GreetingFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE008E652F7293371553EFF /* GreetingFactoryTests.m */; };
@@ -87,6 +88,7 @@
 		AEE00764205D323FAEC3A0FD /* HelloTDDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTDDAppDelegate.m; sourceTree = "<group>"; };
 		AEE007CC35ED26BBFD341463 /* HelloTDDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewController.h; sourceTree = "<group>"; };
 		AEE007E4EAAB91024B52BDCC /* HelloTDDiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTDDiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE00808F5A0C045F61D7486 /* KIFTestStep+HelloTDDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestStep+HelloTDDAdditions.m"; sourceTree = "<group>"; };
 		AEE00883768623E307A795BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AEE00899E04A2AAA83F99E15 /* HelloTDDViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewControllerTests.h; sourceTree = "<group>"; };
 		AEE008CF699601431531BD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		AEE00D8EA8FF7E779AA82ACC /* KIFTestScenario+HelloTDDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+HelloTDDAdditions.m"; sourceTree = "<group>"; };
 		AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOS-Info.plist"; sourceTree = "<group>"; };
 		AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTDDiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE00DE3164414A9642618D3 /* KIFTestStep+HelloTDDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestStep+HelloTDDAdditions.h"; sourceTree = "<group>"; };
 		AEE00E36E5E2CAFAF28FA8DC /* MockHelloTDDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHelloTDDViewController.h; sourceTree = "<group>"; };
 		AEE00F6887EDE6EFF59A5AEC /* HelloTDDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDTestController.h; sourceTree = "<group>"; };
 		AEE00FF04D588E5278F30305 /* HelloTDDViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewControllerDelegate.h; sourceTree = "<group>"; };
@@ -253,6 +256,8 @@
 				AEE00AD1709A65B69522BB98 /* HelloTDDTestController.m */,
 				AEE00D8EA8FF7E779AA82ACC /* KIFTestScenario+HelloTDDAdditions.m */,
 				AEE004F4AFAF781396870DCB /* KIFTestScenario+HelloTDDAdditions.h */,
+				AEE00808F5A0C045F61D7486 /* KIFTestStep+HelloTDDAdditions.m */,
+				AEE00DE3164414A9642618D3 /* KIFTestStep+HelloTDDAdditions.h */,
 			);
 			path = HelloTDDiOSIntegrationTests;
 			sourceTree = "<group>";
@@ -546,6 +551,7 @@
 				1FE71675173455ED00B5EA95 /* GreetingFactory.m in Sources */,
 				AEE00B9F622FDCA9CF735BBD /* HelloTDDTestController.m in Sources */,
 				AEE000B33F22DC923531D863 /* KIFTestScenario+HelloTDDAdditions.m in Sources */,
+				AEE0009A9EEBF3806037AD09 /* KIFTestStep+HelloTDDAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
