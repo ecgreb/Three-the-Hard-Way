@@ -1,7 +1,7 @@
 Three the Hard Way (HelloTDDiOS)
 ================================
 
-Sample test-driven iOS project. Showcases simple automatated testing using:
+Sample test-driven iOS project. Showcases simple automated testing using:
 
 * OCUnit
 * [Kiwi](https://github.com/allending/Kiwi)
