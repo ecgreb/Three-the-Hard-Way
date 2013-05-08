@@ -2,10 +2,10 @@ platform :ios
 
 pod 'CocoaLumberjack'
 
-target :HelloTDDiOSTests, :exclusive => true do
+target :'Unit Tests', :exclusive => true do
    pod 'Kiwi'
 end
 
-target :HelloTDDiOSIntegrationTests, :exclusive => true do
+target :'Integration Tests', :exclusive => true do
    pod 'KIF'
 end
