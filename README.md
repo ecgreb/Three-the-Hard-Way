@@ -11,25 +11,26 @@ Uses CocoaPods for library dependency management.
 
 Set Up
 ------
-
+```
 $ git clone git@github.com:ecgreb/Three-the-Hard-Way.git
 $ cd Three-the-Hard-Way/
 $ pod install
+```
 
 Xcode
 -----
 
-1. Open project using HelloTDDiOS.xcworkspace.
-2. Press Cmd+U keyboard shortcut to run OCUnit and Kiwi tests.
-3. Select Integration Tests scheme to run KIF tests.
-4. Select HelloTDDiOS scheme to run sample app.
+1. Open project using <code>HelloTDDiOS.xcworkspace</code>.
+2. Press <code>Cmd+U</code> keyboard shortcut to run OCUnit and Kiwi tests.
+3. Select <code>Integration Tests</code> scheme to run KIF tests.
+4. Select <code>HelloTDDiOS</code> scheme to run sample app.
 
 AppCode
 -------
 
-1. Open project using HelloTDDiOS.xcworkspace.
-2. Select Run > Edit Configurations...
-3. Add new OCUnit run configuration named "Unit Tests" and hit OK.
-4. Select Unit Tests run configuration to run OCUnit and Kiwi tests.
-5. Select Integration Tests run configuration to run KIF tests.
-6. Select HelloTDDiOS run configuration to run sample app.
+1. Open project using <code>HelloTDDiOS.xcworkspace</code>.
+2. Select <b>Run > Edit Configurations...</b>
+3. Add new OCUnit run configuration named <code>Unit Tests</code> and hit OK.
+4. Select <code>Unit Tests</code> run configuration to run OCUnit and Kiwi tests.
+5. Select <code>Integration Tests</code> run configuration to run KIF tests.
+6. Select <code>HelloTDDiOS</code> run configuration to run sample app.
