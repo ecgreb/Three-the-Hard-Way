@@ -1,4 +1,5 @@
 Three the Hard Way (HelloTDDiOS)
+================================
 
 Sample test-driven iOS project. Showcases simple automatated testing using:
 
@@ -9,12 +10,14 @@ Sample test-driven iOS project. Showcases simple automatated testing using:
 Uses CocoaPods for library dependency management.
 
 Set Up
+------
 
 $ git clone git@github.com:ecgreb/Three-the-Hard-Way.git
 $ cd Three-the-Hard-Way/
 $ pod install
 
 Xcode
+-----
 
 1. Open project using HelloTDDiOS.xcworkspace.
 2. Press Cmd+U keyboard shortcut to run OCUnit and Kiwi tests.
@@ -22,6 +25,7 @@ Xcode
 4. Select HelloTDDiOS scheme to run sample app.
 
 AppCode
+-------
 
 1. Open project using HelloTDDiOS.xcworkspace.
 2. Select Run > Edit Configurations...
