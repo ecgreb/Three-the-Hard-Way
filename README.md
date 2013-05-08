@@ -23,7 +23,7 @@ Xcode
 1. Open project using <code>HelloTDDiOS.xcworkspace</code>.
 2. Press <code>Cmd+U</code> keyboard shortcut to run OCUnit and Kiwi tests.
 3. Select <code>Integration Tests</code> scheme to run KIF tests.
-4. Select <code>HelloTDDiOS</code> scheme to run sample app.
+4. Select <code>HelloTDDiOS</code> scheme to run the sample app.
 
 AppCode
 -------
@@ -33,4 +33,4 @@ AppCode
 3. Add new OCUnit run configuration named <code>Unit Tests</code> and hit OK.
 4. Select <code>Unit Tests</code> run configuration to run OCUnit and Kiwi tests.
 5. Select <code>Integration Tests</code> run configuration to run KIF tests.
-6. Select <code>HelloTDDiOS</code> run configuration to run sample app.
+6. Select <code>HelloTDDiOS</code> run configuration to run the sample app.
