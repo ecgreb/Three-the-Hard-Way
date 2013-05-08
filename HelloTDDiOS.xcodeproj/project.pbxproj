@@ -48,7 +48,7 @@
 		AEE00F37C54E1FA65D460973 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE0014C61E4FEB79CCB3A65 /* Default@2x.png */; };
 		AEE00F50DFD04F34F59F8583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE00BE687422D806DC792F7 /* InfoPlist.strings */; };
 		AEE00FDE60EEA232BA43B3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE00C31A22177BB8480F2F3 /* Foundation.framework */; };
-		EE3D8D69705648E28615E7F9 /* libPods-HelloTDDiOSIntegrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */; settings = {}; };
+		EE3D8D69705648E28615E7F9 /* libPods-HelloTDDiOSIntegrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		1FE71686173455EE00B5EA95 /* HelloTDDiOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloTDDiOS copy-Info.plist"; path = "/Users/chuckg/Code/iOS/HelloTDDiOS/HelloTDDiOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		39CD9234CE914E95949849DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AF7C160663487E98B3846E /* Pods-HelloTDDiOSIntegrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloTDDiOSIntegrationTests.xcconfig"; path = "Pods/Pods-HelloTDDiOSIntegrationTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HelloTDDiOSIntegrationTests.a"; path = "libPods-HelloTDDiOSIntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74266A451A0E4929B559B538 /* libPods-HelloTDDiOSIntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloTDDiOSIntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F3567F95264676B36DF460 /* libPods-HelloTDDiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloTDDiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00001B27E8FCF089BC780 /* HelloTDDiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloTDDiOS-Prefix.pch"; sourceTree = "<group>"; };
 		AEE000839A44408D9273B9DF /* MockHelloTDDViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHelloTDDViewControllerDelegate.h; sourceTree = "<group>"; };
@@ -285,9 +285,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FE7166F173455ED00B5EA95 /* HelloTDDiOSIntegrationTests */ = {
+		1FE7166F173455ED00B5EA95 /* Integration Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FE71682173455ED00B5EA95 /* Build configuration list for PBXNativeTarget "HelloTDDiOSIntegrationTests" */;
+			buildConfigurationList = 1FE71682173455ED00B5EA95 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
 			buildPhases = (
 				B255A5F6DA2745C299AABC9F /* Check Pods Manifest.lock */,
 				1FE71670173455ED00B5EA95 /* Check Pods Manifest.lock */,
@@ -301,14 +301,14 @@
 			);
 			dependencies = (
 			);
-			name = HelloTDDiOSIntegrationTests;
+			name = "Integration Tests";
 			productName = HelloTDDiOS;
 			productReference = 1FE71685173455ED00B5EA95 /* HelloTDDiOSIntegrationTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AEE000D2BBB2C117A39E9382 /* HelloTDDiOSTests */ = {
+		AEE000D2BBB2C117A39E9382 /* Unit Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "HelloTDDiOSTests" */;
+			buildConfigurationList = AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "Unit Tests" */;
 			buildPhases = (
 				572D73F033DD46DC9DF72CA3 /* Check Pods Manifest.lock */,
 				AEE006C1A948C3D3A52CA27E /* Sources */,
@@ -322,7 +322,7 @@
 			dependencies = (
 				AEE00BA0795DD3D200861D4F /* PBXTargetDependency */,
 			);
-			name = HelloTDDiOSTests;
+			name = "Unit Tests";
 			productName = HelloTDDiOSTests;
 			productReference = AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -364,13 +364,11 @@
 			mainGroup = AEE003107EE55096D0A6F1EB;
 			productRefGroup = AEE00322EDB160E338028CF9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				AEE00F236B6CC11F9164C786 /* HelloTDDiOS */,
-				AEE000D2BBB2C117A39E9382 /* HelloTDDiOSTests */,
-				1FE7166F173455ED00B5EA95 /* HelloTDDiOSIntegrationTests */,
+				1FE7166F173455ED00B5EA95 /* Integration Tests */,
+				AEE000D2BBB2C117A39E9382 /* Unit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -521,7 +519,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 1;
 		};
 		F82DD30A33214391954BC9CF /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -536,7 +533,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-HelloTDDiOSIntegrationTests-resources.sh\"\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -769,7 +765,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FE71682173455ED00B5EA95 /* Build configuration list for PBXNativeTarget "HelloTDDiOSIntegrationTests" */ = {
+		1FE71682173455ED00B5EA95 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FE71683173455ED00B5EA95 /* Release */,
@@ -787,7 +783,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "HelloTDDiOSTests" */ = {
+		AEE0091DCA19E316766C643D /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEE0095FC232E7A0401E2D09 /* Release */,

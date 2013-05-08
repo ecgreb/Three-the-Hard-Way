@@ -19,11 +19,6 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>HelloTDDiOSTests.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
