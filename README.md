@@ -1,11 +1,13 @@
 Three the Hard Way (HelloTDDiOS)
 ================================
 
+![Three the Hard Way](three-the-hard-way.jpg)[1]
+
 Sample test-driven iOS project. Showcases simple automated testing using:
 
 * OCUnit
-* [Kiwi](https://github.com/allending/Kiwi)
-* [KIF](https://github.com/square/KIF)
+* [Kiwi][2]
+* [KIF][3]
 
 Uses [CocoaPods](http://cocoapods.org/) for library dependency management.
 
@@ -34,3 +36,7 @@ AppCode
 4. Select <code>Unit Tests</code> run configuration to run OCUnit and Kiwi tests.
 5. Select <code>Integration Tests</code> run configuration to run KIF tests.
 6. Select <code>HelloTDDiOS</code> run configuration to run the sample app.
+
+[1]: http://www.youtube.com/watch?v=25RdRdiw2Uo
+[2]: https://github.com/allending/Kiwi
+[3]: https://github.com/square/KIF

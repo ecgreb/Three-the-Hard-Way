@@ -107,6 +107,7 @@
 		AEE00D9AC38D00AB02EC194A /* HelloTDDiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HelloTDDiOS-Info.plist"; sourceTree = "<group>"; };
 		AEE00DB47F7D9680C7AFE16B /* HelloTDDiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HelloTDDiOSTests.octest; path = "Unit Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE00DE3164414A9642618D3 /* KIFTestStep+HelloTDDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestStep+HelloTDDAdditions.h"; sourceTree = "<group>"; };
+		AEE00E1C36DCF3ED408C67E2 /* three-the-hard-way.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "three-the-hard-way.jpg"; sourceTree = "<group>"; };
 		AEE00E36E5E2CAFAF28FA8DC /* MockHelloTDDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHelloTDDViewController.h; sourceTree = "<group>"; };
 		AEE00F6887EDE6EFF59A5AEC /* HelloTDDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDTestController.h; sourceTree = "<group>"; };
 		AEE00FF04D588E5278F30305 /* HelloTDDViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTDDViewControllerDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +200,7 @@
 				88706E7797354E448ACC1129 /* Pods-Integration Tests.xcconfig */,
 				E6E1848B50F84F3A863BA37F /* Pods-Unit Tests.xcconfig */,
 				AEE0012CD99761D72173897B /* README.md */,
+				AEE00E1C36DCF3ED408C67E2 /* three-the-hard-way.jpg */,
 			);
 			sourceTree = "<group>";
 		};
